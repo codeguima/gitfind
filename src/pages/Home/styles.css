@@ -1,55 +1,61 @@
-.conteudo{
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo {
     position: relative;
-
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
 }
 
-
-
-.background{
-
+.background {
     height: 100vh;
     position: absolute;
     left: 0;
 }
 
-.info{
+.info {
     width: 60%;
     margin-right: 90px;
     margin-top: 40px;
-    color:#ffffff
+    color: #ffffff;
 }
 
-input{
+input {
     border: 1px solid #999999;
-    border-radius :22px;
-    min-width:250px;
-    width:80%;
-    margin-right:12px;
+    border-radius: 22px;
+    min-width: 250px;
+    width: 80%;
+    margin-right: 12px;
     background: transparent;
     font-size: 18px;
     padding: 10px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif; 
 }
 
-button{
+button {
     border: 1px solid #999999;
-    border-radius :22px;
-    margin-right:12px;
+    border-radius: 22px;
+    margin-right: 12px;
     background: #2D333B;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 18px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif; /* Garantindo que o botão use a Roboto */
 }
 
-.perfil{
+.perfil {
     display: flex;
     margin: 40px 0;
 }
 
-.profile{
+.profile {
     width: 120px;
     height: 120px;
     border-radius: 60px;
@@ -57,21 +63,33 @@ button{
     margin-right: 32px;
 }
 
-.perfil h3{
+.perfil h3 {
     color: #999999;
     font-size: 24px;
     margin: 0;
+    font-family: 'Roboto', sans-serif; 
 }
 
-.perfil span{
-    display:block;
-    color:#999999;
+.perfil span {
+    display: block;
+    color: #999999;
     font-size: 12px;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.perfil p{
-    color:#999999;
+.perfil p {
+    color: #999999;
     font-size: 12px;
     margin: 20px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.repositorio {
+    font-size: 32px;
+    color: #ffffff;
+    margin: 12px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
 }
